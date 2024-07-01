@@ -7,3 +7,9 @@ services:
       - .env
     volumes:
       - ./logs:/usr/src/app/logs
+    networks:
+      - ddns-client
+
+networks:
+  ddns-client:
+    name: ddns-client
