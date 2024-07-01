@@ -1,0 +1,8 @@
+services:
+  ddns-updater:
+    container_name: ddns-updater
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/usr/src/app/logs

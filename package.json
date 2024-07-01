@@ -1,0 +1,17 @@
+{
+  "name": "ddns-client",
+  "version": "1.0.0",
+  "description": "A simple DDNS updater script for Google Cloud DNS",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "sebastianaf",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "googleapis": "^105.0.0",
+    "node-fetch": "^2.6.1",
+    "node-cron": "^3.0.0",
+    "dotenv": "^10.0.0"
+  }
+}
