@@ -1,6 +1,7 @@
 services:
-  ddns-updater:
-    container_name: ddns-updater
+  ddns-client:
+    container_name: ddns-client
+    restart: always
     build: .
     env_file:
       - .env
